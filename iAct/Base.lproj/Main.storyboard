@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -178,8 +178,8 @@
                                                 <rect key="frame" x="18" y="298" width="377" height="387"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <mutableString key="text">The “Black Lives Matter” movement has become a worldwide protest in which it has become the largest movement in history. As a community, it is one’s job to tackle the ongoing systemic racism that exists in the world today. As a response to black lives being killed for the color of their skin, the fight to end police brutality and social injustice has begun. Let’s work together to create a world where a life should not be traded for an act of racism and oppression as we continue to enlighten others, donate to organizations, sign petitions, and hold people responsible for their inexcusable actions. 
-</mutableString>
+                                                <string key="text">The “Black Lives Matter” movement has become a worldwide protest in which it has become the largest movement in history. As a community, it is one’s job to tackle the ongoing systemic racism that exists in the world today. As a response to black lives being killed for the color of their skin, the fight to end police brutality and social injustice has begun. Let’s work together to create a world where a life should not be traded for an act of racism and oppression as we continue to enlighten others, donate to organizations, sign petitions, and hold people responsible for their inexcusable actions. 
+</string>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -189,11 +189,11 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Black Lives Matter -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ee-Bq-gby">
-                                                <rect key="frame" x="57" y="0.0" width="303" height="69"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="430" height="66"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1XZ-tG-ZV4">
@@ -271,8 +271,37 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsM-rc-ggG">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1149"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1204"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground" translatesAutoresizingMaskIntoConstraints="NO" id="Sqs-Ex-IbM">
+                                                <rect key="frame" x="-105" y="-113" width="560" height="868"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lGU-TF-Dhk">
+                                                <rect key="frame" x="25" y="278" width="364" height="844"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">On July 1, 2020, China passed a wide-ranging new security law for Hong Kong which will ultimately punish protesters and reduce the city’s autonomy. The law gives Beijing powers to shape life in Hong Kong it has never had before. While critics say it effectively curtails protest and freedom of speech, China has said it will return stability.
+Hong Kong has been known for its freedom and stark contrasting politics from those of China ever since the British handed the country over to China in 1997. During this handover, China made a promise that Hong Kong can maintain its way of life until 2047 under the one country two systems arrangement stated in the Basic Law, Hong Kong’s mini-constitution. 
+However, with China’s pressing relations and a desire to reunite Hong Kong with the mainland, unrest and turmoil is inevitable in the territory. Under the aforementioned Basic Law, Hong Kong citizens are guaranteed certain rights, such as the freedom of press and assembly, which does not exist on the mainland. This is a deeply troubling time for Hong Kong, which has been a financial and commercial hub for years in addition to being one of the top three countries with the most freedom in the world. </mutableString>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" hongkong" translatesAutoresizingMaskIntoConstraints="NO" id="qJU-eX-Vbx">
+                                                <rect key="frame" x="60" y="85" width="294" height="185"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Hong Kong -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km2-mz-VN9">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="aVz-Ac-wQc"/>
                                         </constraints>
@@ -332,11 +361,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC6-KL-wXP">
-                                <rect key="frame" x="25" y="86" width="369" height="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground" translatesAutoresizingMaskIntoConstraints="NO" id="uuf-kO-3dk">
+                                <rect key="frame" x="-40" y="-250" width="523" height="1101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC6-KL-wXP">
+                                <rect key="frame" x="25" y="86" width="369" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="DEMAND JUSTICE FOR BREONNA TAYLOR"/>
+                                <state key="normal" title="DEMAND JUSTICE FOR BREONNA TAYLOR">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="DemandJusticeForBreonnaTaylor:" destination="03X-ly-7kv" eventType="touchUpInside" id="iW6-5w-h5I"/>
                                 </connections>
@@ -349,11 +386,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL TEMPLATE GENERATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf2-nE-Rwh">
-                                <rect key="frame" x="87" y="49" width="240" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Email Your Representative -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf2-nE-Rwh">
+                                <rect key="frame" x="35" y="44" width="349" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -405,26 +444,40 @@
                                         <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hNK-EV-KIq">
-                                        <rect key="frame" x="21" y="269" width="372" height="448"/>
+                                        <rect key="frame" x="21" y="269" width="372" height="462"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <string key="text">Since April 2017, over a million Uyghur muslims have been detained in concentration camps in Xinjiang.  In these hundreds of camps, muslims are locked up in high security prisons, separated from their families, forced to renounce islam, pyshcologically tortured, brainwashed, and more. Although urged to stop by human rights organizations, the UN, and foreign governments, China claims that these are “reeducation camps'' and refuses to share any information about the camps. Despite this being the largest mass internment of an ethnic-religious minority group since the Holocaust and proven to be extremely oppressive, the camps are still going on right now.
-</string>
+                                        <mutableString key="text">Since April 2017, over a million Uyghur muslims have been detained in concentration camps in Xinjiang.  In these hundreds of camps, muslims are locked up in high security prisons, separated from their families, forced to renounce islam, pyshcologically tortured, brainwashed, and more. Although urged to stop by human rights organizations, the UN, and foreign governments, China claims that these are “reeducation camps'' and refuses to share any information about the camps. Despite this being the largest mass internment of an ethnic-religious minority group since the Holocaust and proven to be extremely oppressive, the camps are still going on right now.
+</mutableString>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Uyghur Muslims -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfY-aJ-HUK">
-                                        <rect key="frame" x="79" y="21" width="257" height="42"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Uyghur Muslims -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfY-aJ-HUK">
+                                        <rect key="frame" x="0.0" y="8" width="437" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="wZE-Yg-ayO">
                                         <rect key="frame" x="52" y="71" width="311" height="183"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VFu-qC-bXo">
+                                        <rect key="frame" x="22" y="725" width="370" height="207"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">   What happens in these camps?
+
+    - People are forced to undergo psychological indoctrination programs.
+   - Women are sexually abused, forced to take birth control, and have forced abortions.
+</string>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -466,17 +519,13 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Yemen - " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHr-yO-nuW">
-                                                <rect key="frame" x="115" y="0.0" width="187" height="65"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="klh-5z-DeI">
-                                                <rect key="frame" x="52" y="58" width="311" height="183"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RbP-mm-Vg0">
                                                 <rect key="frame" x="21" y="249" width="372" height="512"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -496,6 +545,10 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="klh-5z-DeI">
+                                                <rect key="frame" x="52" y="73" width="311" height="183"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -538,6 +591,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name=" hongkong" width="600" height="400"/>
         <image name="Image" width="1000" height="561"/>
         <image name="Image-1" width="705" height="435"/>
         <image name="appback" width="750" height="1102"/>
