@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -124,6 +124,9 @@
                                     </barButtonItem>
                                     <barButtonItem title="EMAIL" id="VXS-MA-OC0">
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="03X-ly-7kv" kind="show" id="Y7z-Nw-vDz"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem title="MISSION" id="Ozp-Pw-4Fq">
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -175,8 +178,8 @@
                                                 <rect key="frame" x="18" y="298" width="377" height="387"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">The “Black Lives Matter” movement has become a worldwide protest in which it has become the largest movement in history. As a community, it is one’s job to tackle the ongoing systemic racism that exists in the world today. As a response to black lives being killed for the color of their skin, the fight to end police brutality and social injustice has begun. Let’s work together to create a world where a life should not be traded for an act of racism and oppression as we continue to enlighten others, donate to organizations, sign petitions, and hold people responsible for their inexcusable actions. 
-</string>
+                                                <mutableString key="text">The “Black Lives Matter” movement has become a worldwide protest in which it has become the largest movement in history. As a community, it is one’s job to tackle the ongoing systemic racism that exists in the world today. As a response to black lives being killed for the color of their skin, the fight to end police brutality and social injustice has begun. Let’s work together to create a world where a life should not be traded for an act of racism and oppression as we continue to enlighten others, donate to organizations, sign petitions, and hold people responsible for their inexcusable actions. 
+</mutableString>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -201,6 +204,24 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Azq-pW-2Yt">
+                                                <rect key="frame" x="18" y="737" width="374" height="629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">ACAB stands for the term “All Cops are Bastards”. While most people believe what it states, it actually means that the police system allows cops to be bad without them being held accountable for their actions. It does not mean that every single cop is a murderer, it means that any cop has the potential to commit murder and still find a way to get away it due to their high position in the working field.  
+</string>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WHAT IS ACAB?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uz2-am-RBe">
+                                                <rect key="frame" x="115" y="702" width="180" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -218,24 +239,6 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="RQf-KT-hOS"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ofZ-pk-xH3"/>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cfB-aG-4Cf">
-                                <rect key="frame" x="20" y="760" width="374" height="629"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">ACAB stands for the term “All Cops are Bastards”. While most people believe what it states, it actually means that the police system allows cops to be bad without them being held accountable for their actions. It does not mean that every single cop is a murderer, it means that any cop has the potential to commit murder and still find a way to get away it due to their high position in the working field.  
-</string>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WHAT IS ACAB?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vgg-sr-IoU">
-                                <rect key="frame" x="114" y="718" width="180" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.88155394789999997" green="0.52119642499999996" blue="0.40647608039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -269,14 +272,6 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsM-rc-ggG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1149"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A5r-ea-Jri">
-                                                <rect key="frame" x="159" y="76" width="97" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="aVz-Ac-wQc"/>
@@ -292,12 +287,6 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="sbk-ib-JMW"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="0Uc-Z3-7Y3"/>
                             </scrollView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="goodbye" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sM6-J4-Q4z">
-                                <rect key="frame" x="159" y="1051" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -334,6 +323,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zep-jd-C8b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="488" y="1020"/>
+        </scene>
+        <!--Email Template View Controller-->
+        <scene sceneID="eff-Qv-Nf5">
+            <objects>
+                <viewController id="03X-ly-7kv" customClass="EmailTemplateViewController" customModule="iAct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uaU-Vi-RWX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC6-KL-wXP">
+                                <rect key="frame" x="25" y="86" width="369" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="DEMAND JUSTICE FOR BREONNA TAYLOR"/>
+                                <connections>
+                                    <action selector="DemandJusticeForBreonnaTaylor:" destination="03X-ly-7kv" eventType="touchUpInside" id="iW6-5w-h5I"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qir-2f-SzC">
+                                <rect key="frame" x="23" y="155" width="372" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL TEMPLATE GENERATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf2-nE-Rwh">
+                                <rect key="frame" x="87" y="49" width="240" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tI1-iQ-sZ3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R7E-g9-Q2M"/>
+                    <connections>
+                        <outlet property="Template" destination="Qir-2f-SzC" id="wcr-nw-jOB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xGa-bH-xQN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450.7246376811595" y="1096.875"/>
         </scene>
         <!--Uyghur Muslims Description View Controller-->
         <scene sceneID="uKW-9Y-Ry8">
@@ -374,8 +408,8 @@
                                         <rect key="frame" x="21" y="269" width="372" height="448"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <mutableString key="text">Since April 2017, over a million Uyghur muslims have been detained in concentration camps in Xinjiang.  In these hundreds of camps, muslims are locked up in high security prisons, separated from their families, forced to renounce islam, pyshcologically tortured, brainwashed, and more. Although urged to stop by human rights organizations, the UN, and foreign governments, China claims that these are “reeducation camps'' and refuses to share any information about the camps. Despite this being the largest mass internment of an ethnic-religious minority group since the Holocaust and proven to be extremely oppressive, the camps are still going on right now.
-</mutableString>
+                                        <string key="text">Since April 2017, over a million Uyghur muslims have been detained in concentration camps in Xinjiang.  In these hundreds of camps, muslims are locked up in high security prisons, separated from their families, forced to renounce islam, pyshcologically tortured, brainwashed, and more. Although urged to stop by human rights organizations, the UN, and foreign governments, China claims that these are “reeducation camps'' and refuses to share any information about the camps. Despite this being the largest mass internment of an ethnic-religious minority group since the Holocaust and proven to be extremely oppressive, the camps are still going on right now.
+</string>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -447,7 +481,7 @@
                                                 <rect key="frame" x="21" y="249" width="372" height="512"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.93105393650000001" green="0.86743479970000004" blue="0.80845206979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <mutableString key="text">There is a huge humanitarian crisis going on in Yemen currently. The streets are covered with rubble from the destroyed schools, hospitals, and other public infrastructures. For years the people of Yemen have faced instability in their own country due to poor governance, underdevelopment, unemployment, and hunger. Yemen’s problem worsened in 2014 when it’s president, Abdrabbuh Mansour Hadi, could not find a solution to all of the country’s problems. This served as the perfect opportunity for an armed group named the Houthis to invade the capital in an attempt to take over government institutions. Yemen’s own president and other government officials fled the country in an attempt to save themselves, leaving the country to  fend for itself.</mutableString>
+                                                <string key="text">There is a huge humanitarian crisis going on in Yemen currently. The streets are covered with rubble from the destroyed schools, hospitals, and other public infrastructures. For years the people of Yemen have faced instability in their own country due to poor governance, underdevelopment, unemployment, and hunger. Yemen’s problem worsened in 2014 when it’s president, Abdrabbuh Mansour Hadi, could not find a solution to all of the country’s problems. This served as the perfect opportunity for an armed group named the Houthis to invade the capital in an attempt to take over government institutions. Yemen’s own president and other government officials fled the country in an attempt to save themselves, leaving the country to  fend for itself.</string>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

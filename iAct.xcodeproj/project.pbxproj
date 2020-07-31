@@ -14,6 +14,7 @@
 		EC47947324D1B8F300B9BB94 /* iAct.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC47947124D1B8F300B9BB94 /* iAct.xcdatamodeld */; };
 		EC47947524D1B8F800B9BB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC47947424D1B8F800B9BB94 /* Assets.xcassets */; };
 		EC47947824D1B8F800B9BB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC47947624D1B8F800B9BB94 /* LaunchScreen.storyboard */; };
+		EC4AD01524D4351B00FC3945 /* EmailTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4AD01424D4351B00FC3945 /* EmailTemplateViewController.swift */; };
 		EC7D2CDD24D1C4E3002B1654 /* BLMDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D2CDC24D1C4E3002B1654 /* BLMDescriptionViewController.swift */; };
 		EC7D2CDF24D1C5B1002B1654 /* HongKongDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D2CDE24D1C5B1002B1654 /* HongKongDescriptionViewController.swift */; };
 		EC7D2CE124D1C982002B1654 /* UyghurMuslimsDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D2CE024D1C982002B1654 /* UyghurMuslimsDescriptionViewController.swift */; };
@@ -31,6 +32,7 @@
 		EC47947424D1B8F800B9BB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC47947724D1B8F800B9BB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC47947924D1B8F800B9BB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4AD01424D4351B00FC3945 /* EmailTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTemplateViewController.swift; sourceTree = "<group>"; };
 		EC7D2CDC24D1C4E3002B1654 /* BLMDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMDescriptionViewController.swift; sourceTree = "<group>"; };
 		EC7D2CDE24D1C5B1002B1654 /* HongKongDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HongKongDescriptionViewController.swift; sourceTree = "<group>"; };
 		EC7D2CE024D1C982002B1654 /* UyghurMuslimsDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyghurMuslimsDescriptionViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				EC47946A24D1B8F300B9BB94 /* SceneDelegate.swift */,
 				EC47946C24D1B8F300B9BB94 /* ViewController.swift */,
 				EC47946E24D1B8F300B9BB94 /* Main.storyboard */,
+				EC4AD01424D4351B00FC3945 /* EmailTemplateViewController.swift */,
 				EC7D2CE424D1D204002B1654 /* NewsViewController.swift */,
 				EC7D2CE224D1C9CB002B1654 /* YemenDescriptionViewController.swift */,
 				EC7D2CE024D1C982002B1654 /* UyghurMuslimsDescriptionViewController.swift */,
@@ -165,6 +168,7 @@
 				EC7D2CE524D1D204002B1654 /* NewsViewController.swift in Sources */,
 				EC7D2CDF24D1C5B1002B1654 /* HongKongDescriptionViewController.swift in Sources */,
 				EC47946B24D1B8F300B9BB94 /* SceneDelegate.swift in Sources */,
+				EC4AD01524D4351B00FC3945 /* EmailTemplateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
